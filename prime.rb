@@ -7,6 +7,6 @@ def prime?(number, current = number - 1)
   if number%current == 0
     return FALSE
   else
-    prime?(number, current - 1)
+    return prime?(number, current - 1)
   end
 end

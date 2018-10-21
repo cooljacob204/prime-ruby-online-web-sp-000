@@ -1,5 +1,5 @@
 # Add  code here!
-include("pry")
+require "pry"
 
 def prime?(number, current = number - 1)
   binding.pry
